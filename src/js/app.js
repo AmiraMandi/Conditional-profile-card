@@ -61,7 +61,7 @@ function render(variables = {}) {
   let instagram = " ";
   if (variables.instagram) {
     instagram =
-      '<a href="https://www.instagram.com/amira.mandi/' +
+      '<a href="https://www.instagram.com/' +
       variables.instagram +
       ' " target= "blank"><i class="fab fa-instagram"></i></a>';
   } else {
